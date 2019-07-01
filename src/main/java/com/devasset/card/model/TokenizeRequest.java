@@ -13,7 +13,7 @@ public class TokenizeRequest {
 
 	@JsonProperty
 	public String authkey = null;
-	
+
 	@JsonProperty
 	public String creditcardnumber = null;
 

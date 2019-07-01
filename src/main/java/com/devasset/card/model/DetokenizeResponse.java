@@ -11,10 +11,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 
 public class DetokenizeResponse {
-	
+
 	@JsonProperty
 	public String creditcardnumber = null;
-	
+
 	@JsonProperty
 	public String cardexpiry = null;
 

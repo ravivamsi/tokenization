@@ -8,5 +8,5 @@ package com.devasset.card.util;
  *
  */
 public class AlgorithmMapper {
-	
+
 }

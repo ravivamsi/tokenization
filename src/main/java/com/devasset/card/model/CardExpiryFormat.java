@@ -22,7 +22,7 @@ public enum CardExpiryFormat {
 		this.format = format;
 	}
 
-	public String getAlgorithm() {
+	public String getCardExpiryFormat() {
 		return format;
 	}
 

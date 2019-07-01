@@ -3,6 +3,8 @@
  */
 package com.devasset.card.api;
 
+import javax.validation.Valid;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,12 +21,12 @@ import com.devasset.card.util.Detokenizer;
  */
 @RestController
 public class Detokenize {
-	
+
 	@RequestMapping(value = "detokenize", method = RequestMethod.POST)
-	public ResponseEntity<DetokenizeResponse> healthCheck(@RequestBody DetokenizeRequest detokenizeRequest) {
-		
+	public ResponseEntity<DetokenizeResponse> healthCheck(@Valid @RequestBody DetokenizeRequest detokenizeRequest) {
+
 		return ResponseEntity.ok().body(Detokenizer.process(detokenizeRequest));
-		
+
 	}
 
 }

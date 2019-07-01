@@ -17,16 +17,16 @@ import com.devasset.card.model.HealthCheck;
 
 @RestController
 public class ReadinessCheck {
-	
+
 	@RequestMapping(value = "healthcheck", method = RequestMethod.GET)
 	public ResponseEntity<HealthCheck> healthCheck() {
-		
+
 		HealthCheck healthCheck = new HealthCheck();
-		
+
 		healthCheck.setStatus("active");
 
 		return ResponseEntity.ok().body(healthCheck);
-		
+
 	}
 
 }

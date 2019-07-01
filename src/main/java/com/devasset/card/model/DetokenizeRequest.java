@@ -10,10 +10,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  *
  */
 public class DetokenizeRequest {
-	
+
 	@JsonProperty
 	public String authkey = null;
-	
+
 	@JsonProperty
 	public String creditcardtoken = null;
 

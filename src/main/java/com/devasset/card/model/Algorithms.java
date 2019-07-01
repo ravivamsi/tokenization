@@ -14,7 +14,7 @@ import java.util.Random;
  */
 public enum Algorithms {
 
-	SHA("SHA"), CUSTOM("CUSTOM");
+	SHA("SHA"), CUSTOM("CUSTOM"), RANDBIN("RANDBIN"), BASIC("BASIC");
 
 	private String algorithm;
 

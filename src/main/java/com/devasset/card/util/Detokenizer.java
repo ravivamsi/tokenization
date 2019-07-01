@@ -13,12 +13,12 @@ import com.devasset.card.model.DetokenizeResponse;
 public class Detokenizer {
 
 	public static DetokenizeResponse process(DetokenizeRequest detokenizeRequest) {
-		
+
 		DetokenizeResponse detokenizeResponse = new DetokenizeResponse();
-		
+
 //		TODO
-		
+
 		return detokenizeResponse;
-		
+
 	}
 }
